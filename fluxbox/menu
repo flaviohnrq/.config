@@ -1,0 +1,12 @@
+[begin] (lao's-fluxbox)
+[exec] (terminator) {terminator}
+[exec] (Firefox) {firefox &}
+[exec] (Sublime) {subl &}
+[exec] (IRC) {quassel &}
+[exec] (Transmission) {transmission-gtk &}
+[exec] (Stremio) {stremio &}
+[exec] (Office) {libreoffice &}
+[exec] (Monitor) {gnome-system-monitor &}
+[nop] (---------------)
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
